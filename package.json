@@ -1,0 +1,20 @@
+{
+  "author": "Yosuke Kumakura <kumatch@gmail.com>",
+  "name": "asyncall",
+  "description": "asyncall.js - Asynchronous function call on Node or browser",
+  "version": "0.1.0",
+  "main": "./lib/asyncall",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kumatch/asyncall.git"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "*"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
