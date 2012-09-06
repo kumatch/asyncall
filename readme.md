@@ -25,7 +25,7 @@ asyncall(function () {
 var asyncall = require('asyncall');
 
 asyncall(function () {
-    alert(1 + 2);
+    console.log(1 + 2);
 });
 ```
 
