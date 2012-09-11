@@ -10,7 +10,7 @@ Usage
 ###on Browser.
 
 ```
-<script type="text/javascript" src="asyncall.min.js"></script>
+<script type="text/javascript" src="asyncall-x.x.x.min.js"></script>
 ```
 
 ```javascript
