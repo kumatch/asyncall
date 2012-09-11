@@ -1,19 +1,21 @@
 module.exports = function(grunt) {
 
+    var tasks = 'lint min';
+    var version = require('./package.json').version;
+
     var sources = [
         './lib/asyncall.js'
     ];
 
-    var tasks = 'lint min';
-
-    grunt.initConfig({
+    var options = {
         lint: {
             files : sources
         },
-        min: {
-            'asyncall.min.js': sources
-        }
-    });
+        min: {}
+    };
 
+    options.min['./lib/asyncall-' + version + '.min.js'] = sources;
+
+    grunt.initConfig(options);
     grunt.registerTask('default', tasks);
 };
