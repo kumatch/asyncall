@@ -14,7 +14,7 @@ module.exports = function(grunt) {
         min: {}
     };
 
-    options.min['./lib/asyncall-' + version + '.min.js'] = sources;
+    options.min['asyncall-' + version + '.min.js'] = sources;
 
     grunt.initConfig(options);
     grunt.registerTask('default', tasks);

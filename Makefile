@@ -4,7 +4,7 @@ LIB := $(CWD)/lib
 all: clean grunt
 
 clean:
-	rm -rf $(LIB)/*.min.js
+	rm -rf $(CWD)/*.min.js
 
 grunt:
 	grunt
