@@ -10,6 +10,10 @@
   },
   "dependencies": {
   },
+  "jam": {
+    "dependencies": {
+    }
+  },
   "devDependencies": {
     "grunt": "*"
   },
