@@ -11,7 +11,7 @@ Usage
 
     $ jam install asyncall
 
-```javascript
+```
 <script src="jam/require.js"></script>
 <script>
 require(['asyncall'], function (asyncall) {
