@@ -7,19 +7,37 @@ Asynchronous function call on Node or Browser.
 Usage
 -----
 
-###on Browser.
+###Browser with Jam (AMD support)
+
+    $ jam install asyncall
+
+```javascript
+<script src="jam/require.js"></script>
+<script>
+require(['asyncall'], function (asyncall) {
+    asyncall(function () {
+        alert(1 + 2);
+    });
+});
+</script>
+```
+
+
+###Browser plain
 
 ```
 <script type="text/javascript" src="asyncall-x.x.x.min.js"></script>
-```
-
-```javascript
+<script>
 asyncall(function () {
     alert(1 + 2);
 });
+</script>
 ```
 
-###on Node.
+
+###Node
+
+    $ npm install asyncall
 
 ```javascript
 var asyncall = require('asyncall');
@@ -30,10 +48,6 @@ asyncall(function () {
 ```
 
 
-Installation
--------------
-
-    $ npm install asyncall
 
 
 
