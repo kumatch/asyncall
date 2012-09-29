@@ -6,8 +6,9 @@
   "main": "./lib/asyncall.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/kumatch/asyncall.git"
+    "url": "https://github.com/kumatch/asyncall.git"
   },
+  "github": "https://github.com/kumatch/asyncall",
   "dependencies": {
   },
   "jam": {
